@@ -44,9 +44,7 @@
     </table>
 </div>
 
-<!-- Hidden div for printing -->
 <div id="print-content" style="display: none;">
-    <h2>Generate an Invoice</h2>
     <p><strong>Cin: </strong>{{ $user->cin }}</p>
     <p><strong>Last Name: </strong>{{ $user->prenom }}</p>
     <p><strong>First Name:</strong> {{ $user->nom }}</p>
@@ -79,7 +77,7 @@
 </div>
 
 <!-- Print Button -->
-<button onclick="printDiv('print-content')" class="btn btn-primary">Print Invoice</button>
+<button onclick="printDiv('print-content')" class="print_btn">Print Invoice</button>
 
 @endsection
 

@@ -12,7 +12,7 @@ class ProductModel extends Model
         'user_id',
         'label',
         'description',
-        'prix'
+        'prix' 
     ];
     protected $table = 'products';
 
